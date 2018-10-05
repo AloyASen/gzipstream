@@ -25,4 +25,5 @@ gz = GzipStreamFile(f)
 
 # License
 
+managed as an archieve for remote delivery from master master branch
 MIT License, as per `LICENSE`
