@@ -15,6 +15,8 @@ The file is almost a gigabyte in size, selected randomly from the 2014-15 Common
 Without `gzipstream`, processing of the file would only be possible by fully downloading it.
 This is highly inefficient as (a) a gzipped WARC file is composed of multiple independent gzip files and (b) the WARC file is hunderds of megabytes in size.
 
+managed as an archieve for remote delivery from master master branch
+
 For minimal usage however...
 
 ```python
@@ -25,5 +27,5 @@ gz = GzipStreamFile(f)
 
 # License
 
-managed as an archieve for remote delivery from master master branch
+
 MIT License, as per `LICENSE`
